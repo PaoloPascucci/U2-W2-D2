@@ -45,11 +45,13 @@ main {
   border-radius: 8px;
   margin: 0 30px;
 }
-.second .card-group .card:first-child {
-  margin-left: 0;
+.second .card-group .card:first-child,
+.fifth .card-group .card:first-child {
+  margin-left: 0 !important;
 }
-.second .card-group .card:last-child {
-  margin-right: 0;
+.second .card-group .card:last-child,
+.fifth .card-group .card:last-child {
+  margin-right: 0 !important;
 }
 section {
   margin: 60px 0;
@@ -69,5 +71,10 @@ section {
 .best {
   font-size: 10px;
   font-weight: bold;
-  padding:2px 5px;
+  padding: 2px 5px;
+}
+
+.btn-darker {
+  color: #7a817c;
+  border-color: #7a817c;
 }
